@@ -7,8 +7,10 @@ export default function App() {
   return (
     <div className='app'>
       <img src={logo} alt="logo" />
-      <div>Welcome to the react app created by the CLI developed by Deng Wenjie</div>
-      <div>
+      <div className='wrapper'>
+        Welcome to the react app created by the CLI developed by Deng Wenjie
+      </div>
+      <div className='wrapper'>
         If you want to know me this is my github:
         <a 
           className='info'
@@ -19,7 +21,7 @@ export default function App() {
           dengwenj
         </a>
       </div>
-      <div>
+      <div className='wrapper'>
         我是中国人🇨🇳，如果你也是，我叫邓文杰 (dèng wén jié). 你也可以在 
         <a
           className='info' 
