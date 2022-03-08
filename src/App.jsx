@@ -30,7 +30,7 @@ export default function App() {
           rel="noreferrer"
         >
           微博
-        </a> 和
+        </a>和
         <a
           className='info' 
           href="https://www.zhihu.com/people/ni-shuo-bu-zou-de-98" 
@@ -38,7 +38,7 @@ export default function App() {
           rel='noreferrer'
         >
           知乎
-        </a> 上找到我
+        </a>上找到我
       </div>
     </div>
   )
